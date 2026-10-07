@@ -104,6 +104,23 @@ Detailed operation-level timings and Key Switching counts are printed during exe
 
 ## Related Paper
 
-**Zephyr: GPU-Efficient Homomorphic Encryption for Privacy-Preserving Transformer Inference**
+**Zephyr: GPU-Efficient Homomorphic Encryption for Privacy-Preserving Transformer Inference**  
+Sieun Seo and Chohong Min
 
-This repository contains the implementation package associated with the Zephyr research project.
+Cryptology ePrint Archive, Paper 2026/932, 2026.
+
+https://eprint.iacr.org/2026/932
+
+## Citation
+
+If you use this implementation in your research, please cite our paper:
+
+```bibtex
+@misc{cryptoeprint:2026/932,
+  author       = {Sieun Seo and Chohong Min},
+  title        = {Zephyr: {GPU}-Efficient Homomorphic Encryption for Privacy-Preserving Transformer Inference},
+  howpublished = {Cryptology {ePrint} Archive, Paper 2026/932},
+  year         = {2026},
+  url          = {https://eprint.iacr.org/2026/932}
+}
+```
