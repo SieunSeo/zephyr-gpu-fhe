@@ -62,9 +62,9 @@ for (int i = 0; i < 1; i++)
 
 The encoder index is used when loading the corresponding BERT weights, so the same implementation structure can be used for the remaining encoder layers when their weights are available.
 
-## Reference Outputs
+## Reference Output
 
-Reference ciphertext/plaintext outputs are included for numerical error evaluation. These files were generated during the full-model experiments and can be used to compare intermediate or final results.
+A reference output for Encoder 0 is included for numerical error evaluation. It can be used to compare the output of the provided encrypted Encoder 0 execution.
 
 For the provided Encoder 0 execution, the final reported error is approximately:
 
@@ -84,12 +84,12 @@ Detailed operation-level timings and Key Switching counts are printed during exe
 
 ```text
 .
-├── bert_weights/          # Model weights for Encoder 0
-├── libckks.a              # Precompiled CKKS static library
-├── libbert.a              # Precompiled BERT static library
-├── test_powerformer.cu    # Main execution driver
-├── *.cuh                  # Required CUDA/C++ headers
-├── ct_*_exact.txt         # Reference outputs for error evaluation
+├── bert_weights/           # Model weights for Encoder 0
+├── libckks.a               # Precompiled CKKS static library
+├── libbert.a               # Precompiled BERT static library
+├── test_powerformer.cu     # Main execution driver
+├── *.cuh                   # Required CUDA/C++ headers
+├── ct_layer0_out_exact.txt # Reference output for Encoder 0 error evaluation
 ├── Makefile
 └── README.md
 ```
