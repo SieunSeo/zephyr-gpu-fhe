@@ -124,3 +124,13 @@ If you use this implementation in your research, please cite our paper:
   url          = {https://eprint.iacr.org/2026/932}
 }
 ```
+
+## License
+
+This repository is provided for **non-commercial academic research,
+education, and evaluation purposes only**.
+
+Commercial use is not permitted without prior written permission from
+the copyright holders.
+
+See the [`LICENSE`](LICENSE) file for details.
