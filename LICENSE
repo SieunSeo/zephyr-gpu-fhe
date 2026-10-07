@@ -1,0 +1,74 @@
+Zephyr Academic Research and Evaluation License
+
+Copyright (c) 2026 Sieun Seo and Chohong Min
+
+Permission is hereby granted, free of charge, to use, copy, and modify
+the software and associated materials provided in this repository
+(the "Software") solely for non-commercial academic research,
+education, and evaluation purposes, subject to the following conditions:
+
+1. Permitted Use
+
+The Software may be used for:
+- non-commercial academic research;
+- reproduction and evaluation of the results reported in the Zephyr paper;
+- educational purposes; and
+- modification of the Software for the above purposes.
+
+2. Non-Commercial Restriction
+
+The Software, including the provided precompiled libraries
+(libckks.a and libbert.a), may not be used, directly or indirectly,
+for commercial purposes without prior written permission from the
+copyright holders.
+
+Commercial purposes include, but are not limited to:
+- use in commercial products or services;
+- use in proprietary products intended for commercial deployment;
+- commercial consulting or contract work;
+- redistribution or sublicensing for commercial purposes; and
+- use primarily intended to generate commercial advantage or monetary
+  compensation.
+
+3. Redistribution
+
+Redistribution of the Software, in original or modified form, is
+permitted only for non-commercial academic research, education, or
+evaluation purposes, provided that:
+
+- this license and copyright notice are retained;
+- the original source of the Software is clearly identified; and
+- modified versions are clearly marked as modified.
+
+4. Attribution
+
+Academic publications resulting from use of the Software should cite:
+
+Sieun Seo and Chohong Min,
+"Zephyr: GPU-Efficient Homomorphic Encryption for Privacy-Preserving
+Transformer Inference,"
+Cryptology ePrint Archive, Paper 2026/932, 2026.
+
+https://eprint.iacr.org/2026/932
+
+5. No Patent License
+
+Except as expressly stated in this license, no patent rights are
+granted under this license.
+
+6. No Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT,
+OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+7. Commercial Licensing
+
+For commercial use or licensing inquiries, please contact the
+copyright holders.
